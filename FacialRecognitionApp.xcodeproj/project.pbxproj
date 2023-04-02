@@ -13,6 +13,8 @@
 		DF1FC4E529D8B0F2001A053C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF1FC4E329D8B0F2001A053C /* Main.storyboard */; };
 		DF1FC4E729D8B0F3001A053C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF1FC4E629D8B0F3001A053C /* Assets.xcassets */; };
 		DF1FC4EA29D8B0F3001A053C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF1FC4E829D8B0F3001A053C /* LaunchScreen.storyboard */; };
+		DFC9A2A829D9C74C003B95FA /* tt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFC9A2A729D9C74C003B95FA /* tt.jpg */; };
+		DFC9A2AA29D9F89E003B95FA /* y.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFC9A2A929D9F89E003B95FA /* y.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DF1FC4E629D8B0F3001A053C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF1FC4E929D8B0F3001A053C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF1FC4EB29D8B0F3001A053C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFC9A2A729D9C74C003B95FA /* tt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tt.jpg; sourceTree = "<group>"; };
+		DFC9A2A929D9F89E003B95FA /* y.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = y.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				DF1FC4E629D8B0F3001A053C /* Assets.xcassets */,
 				DF1FC4E829D8B0F3001A053C /* LaunchScreen.storyboard */,
 				DF1FC4EB29D8B0F3001A053C /* Info.plist */,
+				DFC9A2A729D9C74C003B95FA /* tt.jpg */,
+				DFC9A2A929D9F89E003B95FA /* y.jpg */,
 			);
 			path = FacialRecognitionApp;
 			sourceTree = "<group>";
@@ -125,7 +131,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFC9A2AA29D9F89E003B95FA /* y.jpg in Resources */,
 				DF1FC4EA29D8B0F3001A053C /* LaunchScreen.storyboard in Resources */,
+				DFC9A2A829D9C74C003B95FA /* tt.jpg in Resources */,
 				DF1FC4E729D8B0F3001A053C /* Assets.xcassets in Resources */,
 				DF1FC4E529D8B0F2001A053C /* Main.storyboard in Resources */,
 			);
@@ -301,9 +309,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = centennialcollege.FacialRecognitionApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -328,9 +339,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = centennialcollege.FacialRecognitionApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
