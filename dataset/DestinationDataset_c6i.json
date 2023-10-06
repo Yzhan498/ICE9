@@ -1,0 +1,24 @@
+{
+	"name": "DestinationDataset_c6i",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorageYingda",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "product",
+				"container": "productdata8912"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

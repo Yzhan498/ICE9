@@ -1,0 +1,9 @@
+{
+	"name": "demodb8912",
+	"location": "canadacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "cfcc1281-01ce-4e0c-8f0f-8bc8a9faf9df",
+		"tenantId": "ec1bd924-0a6a-4aa9-aa89-c980316c0449"
+	}
+}
